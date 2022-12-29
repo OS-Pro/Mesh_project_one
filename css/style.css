@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0;
+
+}
+
+body{
+    background-color:#eee;
+    /* height: 3000px; */
+    font-family: 'Almarai', sans-serif;
+}
+
+/* Start Header */
+ul{
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    padding:15px 0px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 4px;
+     
+}
+
+ul li:hover {
+    display: inline-block;
+    margin-left: 20px;
+    /* color: blue; */
+    /* padding: 3px; */
+    /* background-color: rgba(65, 65, 237, 0.128); */
+    border-radius: 5px;
+    /* border:1px solid black; */
+   
+   
+}
+
+ul li a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+ul li a:hover{
+    color:rgb(48, 48, 243);
+    text-decoration: none;
+   
+}
+
+.main-img{
+    height: 300px;
+    background-image: url("../images/3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* End Header */
+
+/* Start Our Features */
+
+.our-features{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.our-features h2{
+    color: blue;
+
+}
+
+.features{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.features .feature{
+    text-align: center;
+    background-color: white;
+    width: 28%;
+    margin:auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.features .feature:hover{
+   box-shadow: 0px 3px 10px 2px ;
+   transform: translateX(3px);
+ 
+}
+.features .feature i{
+    padding: 15px;
+    font-size: 30px;
+    background-color: rgb(59, 59, 242);
+    color: white;
+    border-radius: 50%;
+}
+
+.features .feature h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* End Our Features */
+
+/* Start Contant */
+
+.content{
+    padding-top: 20px;
+    /* width: 100%; */
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    border-radius:10px;
+}
+
+.content h2{
+    color: blue;
+    padding-bottom: 10px;
+   
+}
+
+.content p{
+    font-size: 20px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(233, 220, 246, 0.164);
+    border-radius: 10px;
+
+}
+
+.content img{
+    width: 230px;
+    height: 200px;
+    /* padding-bottom: 20px; */
+    /* padding-top: 20px; */
+    margin: 10px;
+    border:2px solid rgba(0, 0, 255, 0.152);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.content img:hover{
+    box-shadow: 0px 3px 10px 2px ;
+    transform: translateX(2px);
+  
+ }
+
+/* End Contant */
+
+/* Start Contact-us */
+
+.contact-us{
+    margin: 5px 0 0 0 ;
+    width: 100%;
+    background-color:rgb(201, 198, 198);
+    border-radius: 10px;
+
+
+}
+
+
+.contact-form{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(201, 198, 198);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.input-form{
+    margin-bottom: 20px;
+}
+
+/* .input-form:hover{
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 10px 2px ;
+    transform: translateX(2px);
+} */
+
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 10px ;
+}
+.input-form input:hover{
+    width: 400px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 10px ;
+    box-shadow: 0px 3px 10px 2px ;
+    transform: translateX(2px);
+
+}
+.input-form input:focus{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 10px ;
+    box-shadow: 0px 3px 10px 2px ;
+    /* transform: translateX(1px); */
+    padding-left: 20px;
+
+}
+
+.input-form textarea{
+    width: 400px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 10px ;
+}
+
+.input-form textarea:hover{
+    width: 400px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 10px ;
+    box-shadow: 0px 3px 10px 2px ;
+    transform: translateX(2px);
+
+}
+.input-form textarea:focus{
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 10px ;
+    box-shadow: 0px 3px 10px 2px ;
+    /* transform: translateX(1px); */
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.input-form label{
+    font-size: 20px;
+    position: absolute;
+    left: 20%;
+    right: 80%; 
+}
+
+.btn-send{
+    width: 200px;
+    height: 50px;
+    border:2px solid rgb(42, 75, 209);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(42, 75, 209);
+}
+/* End Contact-us */
+
+hr{
+  border:2px solid rgb(124, 123, 123);
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
